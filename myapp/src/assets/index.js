@@ -1,0 +1,1 @@
+export { default as herobg } from "./images/herobg.jpg"
