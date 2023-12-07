@@ -19,8 +19,8 @@ export default function Hero() {
                 <a href="/" className='text-xl text-{#45b29d} underline'>Read More</a>
             </div>
             <div className="grid bg-[#8e372c] w-full py-16 items-center justify-center text-center">
-                <p className='text-5xl text-white uppercase font-semibold'>Take a pledge!</p>
-                <a href="/support"><button className='bg-white text-[#8e372c] text-xl p-3 rounded-full text-center font-semibold uppercase'>Support Us</button></a>
+                <p className='text-5xl text-white uppercase font-semibold'>Make a pledge!</p>
+                <a href="/support"><button className='bg-white text-[#8e372c] text-xl p-3 rounded-full text-center font-semibold uppercase px-6 hover:bg-transparent hover:border hover:text-white'>Support Us</button></a>
             </div>
         </div>
         <div className="flex text-white ">
