@@ -5,8 +5,8 @@ export default function Events() {
   return (
     <div className='grid items-center justify-center text-center'>
       <p className='text-5xl font-semibold p-8'>Our Events</p>
-      <div className="flex gap-4 px-72 py-12">
-        <div className="grid border rounded-xl items-center justify-center text-center hover:">
+      <div className="flex gap-8 px-72 py-12">
+        <div className="grid border rounded-xl items-center justify-center text-center hover:-translate-y-10 transform transition-transform duration-700">
           <img src={event1} alt="" className='rounded-t-xl' />
           <div className="grid gap-4 px-32 pb-8">
           <p className='font-semibold text-2xl py-2'>Upcoming Event</p>
@@ -16,7 +16,7 @@ export default function Events() {
           <button className='bg-[#254151] rounded-full p-4 items-center text-white font-semibold'>REGISTER NOW</button>
           </div>
         </div>
-        <div className="grid border rounded-xl items-center justify-center text-center group">
+        <div className="grid border rounded-xl items-center justify-center text-center hover:-translate-y-10 transform transition-transform duration-700">
           <img src={event1} alt="" className='rounded-t-xl' />
           <div className="grid gap-4 px-32 pb-8">
           <p className='font-semibold text-2xl py-2'>Upcoming Event</p>
