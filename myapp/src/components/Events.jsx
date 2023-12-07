@@ -27,6 +27,12 @@ export default function Events() {
           </div>
         </div>
       </div>
+      <div className='py-32 px-52' py-32 px-64>
+      <div className="flex py-20 items-center justify-center gap-8 font-semibold bg-[#8e372c]">
+        <p className='text-white uppercase text-4xl'>give today to help end illiteracy</p>
+        <a href="/"><button>Donate Now!</button></a>
+      </div>
+      </div>
     </div>
   )
 }
