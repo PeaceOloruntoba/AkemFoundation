@@ -1,5 +1,5 @@
 import React from 'react'
-import { event1, event2 } from '../assets'
+import { event1 } from '../assets'
 
 export default function Events() {
   return (
