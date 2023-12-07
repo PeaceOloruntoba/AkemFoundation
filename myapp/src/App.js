@@ -1,13 +1,14 @@
 import './App.css';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 import { Route, Routes } from "react-router-dom";
-import About from './pages/About';
 import Home from './pages/Home';
-import Notfound from './pages/Notfound';
-import Contact from './pages/Contact';
+import About from './pages/About';
 import Support from './pages/Support';
 import Events from './pages/Events';
 import News from './pages/News';
+import Contact from './pages/Contact';
+import Notfound from './pages/Notfound';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path='/*' element={<Notfound />}/>
       </Routes>
+      <Footer />
     </div>
   );
 }
