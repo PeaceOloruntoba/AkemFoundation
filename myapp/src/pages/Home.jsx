@@ -1,12 +1,12 @@
 import React from 'react'
 import Hero from '../components/Hero'
-import Mission from '../components/Mission'
+import Events from '../components/Events'
 
 export default function Home() {
   return (
     <div>
         <Hero />
-        <Mission />
+        <Events />
     </div>
   )
 }
