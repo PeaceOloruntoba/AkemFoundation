@@ -3,7 +3,7 @@ import EventCard from './EventCard'
 
 export default function Events() {
   return (
-    <div className='grid items-center justify-center text-center'>
+    <div className='grid items-center justify-center text-center px-72'>
       <p className='text-5xl font-semibold p-8 uppercase'>Our Events</p>
       <EventCard />
       <div className='py-32 px-52' py-32 px-64>

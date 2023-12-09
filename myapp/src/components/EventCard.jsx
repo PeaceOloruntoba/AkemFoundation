@@ -4,7 +4,7 @@ import { event1 } from '../assets'
 export default function EventCard() {
   return (
     <div>
-        <div className="flex gap-8 px-72 py-12">
+        <div className="flex gap-8 px-32 py-12">
         <div className="grid border rounded-xl items-center justify-center text-center hover:-translate-y-10 transform transition-transform duration-700">
           <img src={event1} alt="" className='rounded-t-xl' />
           <div className="grid gap-4 px-32 pb-8">
