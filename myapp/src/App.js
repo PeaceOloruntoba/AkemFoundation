@@ -6,7 +6,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Support from './pages/Support';
 import Events from './pages/Events';
-import News from './pages/News';
+// import News from './pages/News';
 import Contact from './pages/Contact';
 import Notfound from './pages/Notfound';
 
