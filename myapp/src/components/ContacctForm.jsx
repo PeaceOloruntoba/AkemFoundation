@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function ContacctForm() {
   return (
-    <div className='flex flex-row text-xl gap-16'>
+    <div className='grid md:flex lg:flex flex-row text-xl gap-16'>
         <div className="flex-col text-start text-2xl w-1/2 p-8">
             <p className='py-8 flex'>If you have questions or would love to connect with us or support, kindly visit, call or send ups a mail.</p>
             <a href="tel:+2348023529950" className='py-8 flex'>+234-802-352-9950</a>

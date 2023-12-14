@@ -13,7 +13,7 @@ export default function Navbar() {
             <li><a href="/about">Who We Are</a></li>
             <li><a href="/support">Support Us</a></li>
             <li><a href="/events">Events</a></li>
-            <li><a href="/news">News</a></li>
+            {/* <li><a href="/news">News</a></li> */}
             <li><a href="/contact">Contact</a></li>
         </ul>
         <a href="/donate"><button className='bg-[#F4CE50] p-8 px-16'>Donate</button></a>

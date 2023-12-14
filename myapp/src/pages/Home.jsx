@@ -8,7 +8,7 @@ export default function Home() {
     <div>
         <Hero />
         <Events />
-        <News />
+        {/* <News /> */}
     </div>
   )
 }
